@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/evening-cloudy-sky-purple-background-with-group-cumulus-cirrus-clouds-flat-cartoon-illustration_1284-62768.jpg?size=626&ext=jpg&ga=GA1.2.1713880638.1655278352&semt=ais);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+header {
+    background-color: #333;
+    color: crimson;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: orchid;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hover-img {
+    background-image: url(https://wallpaperaccess.com/full/30626.jpg);
+    background-size: cover;
+    height: 300px;
+    transition: background-image 0.5s ease-in-out;
+    position: relative;
+}
+
+.hover-img:hover {
+    background-image: url(https://wallpaperaccess.com/full/30626.jpg);
+}
